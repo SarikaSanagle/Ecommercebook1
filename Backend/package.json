@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "backend/Server.js",
+  "main": "Server.js",
   "scripts": {
-    "start": "node  backend/Server.js",
-    "dev": "nodemon backend/Server.js",
+    "start": "node  Server.js",
+    "dev": "nodemon Server.js",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
