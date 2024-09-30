@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node  Server.js",
+    "start": "node  App.js",
     "dev": "nodemon Server.js",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
