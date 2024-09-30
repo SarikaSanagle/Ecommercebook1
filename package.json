@@ -5,7 +5,7 @@
       "start": "backend && npm start",   
       "client": "frontend && npm start", 
       "dev": "concurrently \"npm run server\" \"npm run client\"",
-      "server": "cd backend && npm run dev"
+      "server": "backend && npm run dev"
     },
 
 
