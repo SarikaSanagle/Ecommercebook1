@@ -2,8 +2,8 @@
     "name": "react-tut1",
     "version": "1.0.0",
     "scripts": {
-      "start": "cd backend && npm start",   
-      "client": "cd frontend && npm start", 
+      "start": "backend && npm start",   
+      "client": "frontend && npm start", 
       "dev": "concurrently \"npm run server\" \"npm run client\"",
       "server": "cd backend && npm run dev"
     },
